@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="contenedor">
+        <div class="borde">
+            <div class="box">
+                <div class="time">
+                    <p class="minutos" id="minutos">14</p>
+                    <p class="puntos" id="puntos">:</p>
+                    <p class="segundos" id="segundos">14</p>
+                </div>
+            </div>
+        </div>
+        <div class="indicadores">
+            <p class="ahora" id="trabajo">Work</p>
+            <a href="./">
+                <p id="descanso" class="luego">Break</p>
+            </a>
+        </div>
+        <div>
+            <img onclick=comenzar() id="comenzar" src="img.png" width="40px" alt="play">
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
